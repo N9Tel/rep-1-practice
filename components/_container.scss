@@ -38,7 +38,7 @@
 
 .form-field {
     height: 30px;
-    width: 370px;
+    width: 100%;
     margin-bottom: 30px;
     padding-left: 20px;
     border: 1px solid lightgrey;
@@ -54,11 +54,12 @@
 
 .comment {
   width: 370px;
- height: 150px;
+ height: 100%;
  border: 1px solid lightgrey;
  border-radius: 8px;
  margin-bottom: 30px;
  padding: 15px;
+ resize: none;
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms
 }
