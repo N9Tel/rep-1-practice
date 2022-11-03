@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+.button-set {
+    background-color: tomato;
+    width: 500px;
+    height: 100px;
+    padding: 20px auto;
+}
+
+.list {
+display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.item {
+
+ }
+
+.btn {
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    background-color: darkgray;
+    color: #fff;
+    border-radius: 6px;
+    border-color: transparent;
+}
