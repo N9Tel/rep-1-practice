@@ -1,49 +1,56 @@
-* {
-    box-sizing: border-box;
+
+
+.background {
+    width: 900px;
+    height: 900px;
+    padding: 50px;
+    background-color: rgb(110, 120, 119);
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.modal {
+    padding: 50px;
+    width: 700px;
+        height: 800px;
+        background-color: gainsboro;
+        border-radius: 20px;
+}
+
+.form {
+    margin: 0 auto;
+
+}
+
+.text {
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #323232;
+    text-align: center;
     margin: 0;
+    margin-bottom: 30px;
 }
 
-li {
-    padding: 0;
-    margin: 0;
-}
-
-
-
-
-
-
-.button-set {
-    background-color: tomato;
-    width: 500px;
-    height: 100px;
-    padding: 20px auto;
-}
-
-.list {
-display: flex;
-    justify-content: space-around;
+.inputs {
+    display: block;
     align-items: center;
-    
+    justify-content: center;
 }
 
-.item {
+.field {
 
- }
-
-.btn {
-    padding: 10px 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: calc(16/14);
-    letter-spacing: 0.02em;
-    background-color: darkgray;
-    color: #fff;
+    width: 620px;
+    height: 35px;
+    margin-bottom: 50px;
+    border: 1px solid #232323;
     border-radius: 6px;
-    border-color: transparent;
+    display: block;
+    justify-content: center;
+   
+}
+
+.comment {
+    width: 620px;
+    height: 150px;
+    border: 1px solid #232323;
+    border-radius: 6px;
 }
